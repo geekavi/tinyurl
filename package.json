@@ -20,7 +20,6 @@
   "dependencies": {
     "body-parser": "^1.9.2",
     "express": "^4.10.1",
-    "hiredis": "^0.1.17",
     "jade": "^1.7.0",
     "morgan": "^1.6.1",
     "redis": "^0.12.1",

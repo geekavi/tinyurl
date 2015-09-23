@@ -1,12 +1,25 @@
 doctype html
-html(lang="en")
-    head
-        title=TinyURL
+html.no-js
+  // <![endif]
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    title TINYURL
+    meta(name='description', content='')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    meta(name='apple-mobile-web-app-title', content='Membership')
+    link(rel='shortcut icon', href='favicon.ico')
+    link(rel='apple-touch-icon-precomposed', href='apple-touch-icon.png')
+    link(rel='stylesheet', href='main.css')
 
-    body
-        div.container
-            div.row
-                h1 Shortbread
-                p 
-                    | Your shortened URL is 
-                    a(href=base_url+'/'+id) #{base_url}/#{id}
+  body
+    section#features.container
+      .inner
+        // Header
+        h1.header.light.gray1
+          | Fastest way to reduce 
+          span.colored.fancy URL
+          |  size.
+          p 
+          | Your shortened URL is 
+          a(href=base_url+'/'+id) #{base_url}/#{id}
