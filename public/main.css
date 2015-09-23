@@ -14,7 +14,12 @@
 	
 
 /* Main Styles */
-
+	.result{
+		padding: 0px;
+	    color: #fff;
+	    margin-top: 20px;
+	    font-size: 2em;
+	}
 	::selection {
 		background-color: #ececec;
 	}

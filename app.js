@@ -46,10 +46,10 @@ app.get('/', function (req, res) {
 });
 
 // Define submit route
-app.post('/', function (req, res) {
+app.post('/post', function (req, res) {
     // Declare variables
     var url, id;
-
+//console.log(req.body, req.query);
     // Get URL
     url = req.body.url;
 
@@ -59,7 +59,7 @@ app.post('/', function (req, res) {
     // Store them in Redis
     client.set(id, url, function () {
         // Display the response
-        res.render('output', { id: id, base_url: base_url });
+        res.json({ id: id, base_url: base_url });
     });
 });
 
@@ -67,9 +67,10 @@ app.post('/', function (req, res) {
 app.route('/:id').all(function (req, res) {
     // Get ID
     var id = req.params.id.trim();
-
+    
     // Look up the URL
     client.get(id, function (err, reply) {
+    	console.log(err, reply);
         if (!err && reply) {
             // Redirect user to it
             res.status(301);

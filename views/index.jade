@@ -11,6 +11,8 @@ html.no-js
     link(rel='shortcut icon', href='favicon.ico')
     link(rel='apple-touch-icon-precomposed', href='apple-touch-icon.png')
     link(rel='stylesheet', href='main.css')
+    script(src='https://code.jquery.com/jquery-2.1.4.min.js')
+    script(src='tiny.js')
 
   body
     section#features.container
@@ -26,6 +28,7 @@ html.no-js
           span.colored.bold URL 
           |  to reduce.
         div.row
-            form(action="/", method="POST")
+            form(action="/post", method="POST", id="tinyform" )
                 input(type="url", name="url" size=100)
-                input(type="submit", value="Submit")
+                input(type="button", value="Submit" id="tinybtn")
+            div.result        
