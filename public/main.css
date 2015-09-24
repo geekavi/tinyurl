@@ -517,7 +517,7 @@ input[name="url"] {
     box-sizing: border-box;
     outline:0;
 }
-input[name="url"]:focus { border:2px solid #CC4949; }
+input[name="url"]:focus { border:2px solid #21bc63; }
 
 #tinybtn {
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
@@ -536,7 +536,7 @@ input[name="url"]:focus { border:2px solid #CC4949; }
     vertical-align: top;
     padding: 16px 10px;
 }
-#tinybtn:focus { background:#CC4949; }
+#tinybtn:focus { background:#21bc63; }
 
 
 .result {
