@@ -1,6 +1,6 @@
 {
   "name": "tinyurl",
-  "version": "1.0.0",
+  "version": "8.0.0",
   "description": "A simple URL shortener written with Node.js and using Redis to persist the data",
   "main": "index.js",
   "repository": {
