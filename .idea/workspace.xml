@@ -41,7 +41,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1580864775848</updated>
-      <workItem from="1580864776918" duration="1016000" />
+      <workItem from="1580864776918" duration="1120000" />
     </task>
     <task id="LOCAL-00001" summary="added circleci conf">
       <created>1580864831632</created>
@@ -92,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580866016536</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="added test">
+      <created>1580866127707</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1580866127707</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

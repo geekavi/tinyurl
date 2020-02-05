@@ -11,6 +11,9 @@
     "shortener",
     "url"
   ],
+  "engines": {
+    "node": "8.16.2"
+  },
   "scripts": {
     "start": "node app.js",
     "test": "mocha test/test-pages.js"
