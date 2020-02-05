@@ -11,10 +11,6 @@
     "shortener",
     "url"
   ],
-  "engines": {
-    "node": "0.10.x",
-    "npm": "1.2.x"
-  },
   "scripts": {
     "start": "node app.js",
     "test": "mocha test/test-pages.js"
