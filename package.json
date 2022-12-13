@@ -22,7 +22,7 @@
   "license": "GPLv2",
   "dependencies": {
     "body-parser": "^1.9.2",
-    "express": "^4.10.1",
+    "express": "^4.17.3",
     "jade": "^1.7.0",
     "morgan": "^1.6.1",
     "redis": "^0.12.1",
